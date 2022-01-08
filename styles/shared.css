@@ -1,0 +1,51 @@
+body{
+
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.anchor{
+
+    font-size: 80px;
+}
+
+main{
+font-size: large;
+}
+
+.otherpage{
+    background-image: url("../images/1637189540932.jpg");
+
+}
+.indexpage{
+    background-image: url("../images/94166533235515276dec0678bd3f0056_222352.jpg")
+}
+nav a{
+    font-size: 30px;
+    color: bisque;
+    
+}
+nav{
+    width: 30%;
+}
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav ul li+li{
+padding: 0px 25px 0px 25px;
+border: 2px solid red;
+}
