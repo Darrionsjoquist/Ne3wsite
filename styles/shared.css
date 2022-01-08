@@ -46,6 +46,6 @@ nav ul{
 
 }
 nav ul li+li{
-padding: 0px 25px 0px 25px;
+padding-left: 25px;
 border: 2px solid red;
 }
