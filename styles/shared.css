@@ -19,15 +19,16 @@ font-size: large;
 }
 
 .otherpage{
-    background-image: url("../images/1637189540932.jpg");
+    background-image: url("../images/images\ \(1\).jfif");
+    width: 1vh;
 
 }
 .indexpage{
     background-image: url("../images/94166533235515276dec0678bd3f0056_222352.jpg")
 }
 nav a{
-    font-size: 30px;
-    color: bisque;
+    font-size: 90px;
+    color: rgb(243, 210, 20);
     
 }
 nav{
@@ -48,4 +49,28 @@ nav ul{
 nav ul li+li{
 padding-left: 25px;
 border: 2px solid red;
+}
+
+.grid-nav{
+display: grid;
+grid-template-areas: 
+"air water"
+"fire earth";
+}
+.fire{
+    grid-area: fire;
+}
+.earth{
+    grid-area:earth
+}
+.water{
+    grid-area: water;
+}
+.air{
+    grid-area: air;
+}
+
+.air-index{
+    background-image: url("../images/Air.png");
+    
 }
